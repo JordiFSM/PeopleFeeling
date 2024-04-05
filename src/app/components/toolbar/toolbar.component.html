@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Happiness feeling  <mat-icon>sentiment_very_dissatisfied</mat-icon><mat-icon>sentiment_very_satisfied</mat-icon></span>
+    <span class="example-spacer"></span>
+    <button 
+      mat-icon-button class="example-icon favorite-icon" 
+      aria-label="Example icon-button with heart icon"
+      (click)="openDialog('250ms', '250ms')"
+    >      
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
